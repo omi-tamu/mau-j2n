@@ -61,7 +61,10 @@ Markdownのエディタは様々なものが存在し、Visual Studio Codeが有
 ***
 # ５. 出題1~4までの実現に必要となった作業をREADME.mdに追記
 
-## - **gitとは**
+## - **gitとは**  
+出題１で回答済みのため、ここではGitのWikipediaリンクを掲載する  
+[wikipediaリンク（Git）](https://ja.wikipedia.org/wiki/Git)  
+
 ## - **gitインストール**  
 Mac OSではデフォルトでインストールされているということを聞いたので、ターミナルにて `git ver`コマンドで確認したが  
 ```
@@ -113,7 +116,8 @@ git version 2.39.3 (Apple Git-145)
   Owner / `Repository name`　に以下を入力  
   omi-tamu / `mau-j2n`  
   入力したら`「Create repository」`でレポジトリの入力完了    
-  ターミナルで以下を入力してプッシュ完了、GitHubに公開されていることを確認
+  ターミナルで以下を入力してプッシュ完了、GitHubに公開されていることを確認  
+  `git push -u origin main`
 
 
 
