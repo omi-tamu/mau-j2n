@@ -118,7 +118,7 @@ git version 2.39.3 (Apple Git-145)
   入力したら`「Create repository」`でレポジトリの入力完了    
   ターミナルで`git push -u origin main`  を入力してプッシュ完了、GitHubに公開されていることを確認  
 
-    - **コマンド集**  
+  - **コマンド集**  
   `git remote add`　：ローカルリポジトリをリモートリポジトリに登録する  
   `git remote add origin URL（https://github.com/user/repogitory.git）` :originという名前でGitHubリポジトリにアクセスできる  
   `git push origin main（ブランチ名）`　：ローカルリポジトリをリモートリポジトリに送信する   
