@@ -111,7 +111,14 @@ git version 2.39.3 (Apple Git-145)
   ⑥「esc」を押す （ノーマルモードに戻る）  
   ⑦「:wq」を入力してエンターを押す (commitメッセージを保存してエディタを閉じる)    
 
-  - **コマンド集**  
+  - **git push**  
+  リモートリポジトリにプッシュするために、GitHubのアカウントページの`「New repository」`から  
+  Owner / `Repository name`　に以下を入力  
+  omi-tamu / `mau-j2n`  
+  入力したら`「Create repository」`でレポジトリの入力完了    
+  ターミナルで`git push -u origin main`  を入力してプッシュ完了、GitHubに公開されていることを確認  
+
+    - **コマンド集**  
   `git remote add`　：ローカルリポジトリをリモートリポジトリに登録する  
   `git remote add origin URL（https://github.com/user/repogitory.git）` :originという名前でGitHubリポジトリにアクセスできる  
   `git push origin main（ブランチ名）`　：ローカルリポジトリをリモートリポジトリに送信する   
@@ -128,20 +135,7 @@ git version 2.39.3 (Apple Git-145)
   `git diff`　：ファイルの変更差分を表示する（ローカルとステージングエリアとの差分）  
   `git diff HEAD`　：ファイルの変更差分を表示する（ステージングエリアと最新コミットとの差分）  
   `rm ***.**`　：gitからファイルを管理しないように削除  
-  `git rm`　：削除されたファイルをステージングエリアに追加  
-
-
-  
-
-  
-  
-  - **git push**  
-  リモートリポジトリにプッシュするために、GitHubのアカウントページの`「New repository」`から  
-  Owner / `Repository name`　に以下を入力  
-  omi-tamu / `mau-j2n`  
-  入力したら`「Create repository」`でレポジトリの入力完了    
-  ターミナルで`git push -u origin main`  を入力してプッシュ完了、GitHubに公開されていることを確認  
-
+  `git rm`　：削除されたファイルをステージングエリアに追加 
 
 
 ## - **githubアカウントの作成**
